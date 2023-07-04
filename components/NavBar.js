@@ -3,7 +3,8 @@ import React from "react"
 const NavBar = () => {
     return (
         <React.Fragment>
-            <nav className="flex items-center justify-between flex-wrap bg-white shadow-lg py-2 px-24">
+            <nav className="h-20">
+                <div className="max-w-[1200px] h-full mx-auto flex items-center justify-between flex-wrap bg-white drop-shadow-lg px-8 rounded-[100px]">
                 <div className="flex items-center flex-shrink-0 text-black mr-6">
                     <img src="/logo.svg" alt="logo" />
                     <span className="font-semibold text-xl tracking-tight">Dreambills</span>
@@ -29,8 +30,9 @@ const NavBar = () => {
                         Blog
                     </li>
                 </ul>
-                <div>
+                <div className="flex items-center gap-2">
                     Sign
+                    <button className="bg-teal-800 px-5 py-3 rounded-lg text-white">Get Started</button>
                 </div>
                 {/*
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-pink-500">
@@ -50,6 +52,7 @@ const NavBar = () => {
                     </div>
                 </div>
             */}
+            </div>
             </nav>
 
         </React.Fragment>
