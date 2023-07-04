@@ -2,15 +2,16 @@ import React from "react"
 const HeroBanner = () => {
     return (
         <React.Fragment>
-            <div className="max-w-[1200px] mx-auto flex justify-between mt-12 mb-4">
+            <div className="max-w-[1200px] mx-auto flex justify-between mt-12 mb-4 relative">
+                 <img src="/vector.svg" alt="pic" className="absolute left-1/2 transform -translate-x-1/2 "/>
                 <div className="w-1/2 py-4">
-                    <h1 className="font-semibold text-teal-700 text-5xl text-bold max-w-md mt-8">
+                    <h1 className="font-semibold text-teal-700 text-6xl text-bold mt-4">
                          Empower Your Workforce, Unlock Africa Potential
                     </h1>
                     <p className="py-8 text-lg text-teal-700">Empower your business with our comprehensive payroll platform tailored for the African market. 
                         Streamline your Payroll Processes, Ensxure Compliance, and Focus on Growth
                     </p>
-                    <div className="py-8 flex gap-4">
+                    <div className="py-4 flex gap-4">
                         <button className="px-4 py-3 text-white bg-teal-800 rounded-lg">Get Started</button>
                         <button className="px-4 py-3 text-teal-800 border rounded-lg">Request a demo</button>
                     </div>

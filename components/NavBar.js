@@ -16,7 +16,7 @@ const NavBar = () => {
                     </button>
                 </div>
                 */}
-                <ul className="flex gap-4">
+                <ul className="flex gap-4 text-teal-800">
                     <li>
                         Why Dreambill
                     </li>
@@ -30,7 +30,7 @@ const NavBar = () => {
                         Blog
                     </li>
                 </ul>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 text-teal-800">
                     Sign
                     <button className="bg-teal-800 px-5 py-3 rounded-lg text-white">Get Started</button>
                 </div>
