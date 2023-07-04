@@ -19,11 +19,11 @@ const HeroBanner = () => {
                 </div>
                 <div className="w-1/2 flex justify-end">
                     <div className="flex gap-4 w-11/12 justify-between flex-wrap p-6 bg-teal-700 relative">
-                          <img src="/eclipse_1.svg" alt="pic6" className="w-24 h-auto absolute top-24 -left-12"/>
-                          <img src="/eclipse_2.svg" alt="pic7" className="w-24 h-auto absolute -top-12 -right-8 "/>
-                          <img src="/eclipse_3.svg" alt="pic8" className="w-24 h-auto absolute bottom-32 -right-8 "/>
-                          <img src="/eclipse_4.svg" alt="pic9" className="w-24 h-auto absolute -bottom-16 left-24 "/>
-                          <img src="/vector_2.svg" alt="pic10" className="absolute top-0 left-0 right-0 bottom-0"/>
+                          <img src="/eclipse_1.svg" alt="pic6" className="w-24 h-auto absolute top-24 -left-12 z-20"/>
+                          <img src="/eclipse_2.svg" alt="pic7" className="w-24 h-auto absolute -top-12 -right-8 z-20"/>
+                          <img src="/eclipse_3.svg" alt="pic8" className="w-24 h-auto absolute bottom-32 -right-8 z-20 "/>
+                          <img src="/eclipse_4.svg" alt="pic9" className="w-24 h-auto absolute -bottom-16 left-24 z-20 "/>
+                          <img src="/vector_2.svg" alt="pic10" className="absolute top-0 left-0 right-0 bottom-0 z-20"/>
 
                           <img src="/img_1.svg" alt="pic1"  className="z-10"/>
                           <img src="/img_2.svg" alt="pic2" className="z-10" />
